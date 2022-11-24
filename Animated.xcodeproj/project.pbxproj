@@ -7,18 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAD7D60A292CB79C00D87DDC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D609292CB79C00D87DDC /* CustomTextField.swift */; };
+		DAD7D60C292CC01E00D87DDC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D60B292CC01E00D87DDC /* Extensions.swift */; };
+		DAD7D610292CCD1600D87DDC /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D60F292CCD1600D87DDC /* TabBar.swift */; };
+		DAD7D612292DFADB00D87DDC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D611292DFADB00D87DDC /* HomeView.swift */; };
+		DAD7D614292DFAE200D87DDC /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D613292DFAE200D87DDC /* VCard.swift */; };
+		DAD7D616292DFAE700D87DDC /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D615292DFAE700D87DDC /* HCard.swift */; };
+		DAD7D61A292DFB0B00D87DDC /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D618292DFB0B00D87DDC /* CourseSection.swift */; };
+		DAD7D61B292DFB0B00D87DDC /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D619292DFB0B00D87DDC /* Course.swift */; };
+		DAD7D61D292E018300D87DDC /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D61C292E018300D87DDC /* SideMenu.swift */; };
+		DAD7D61F292E08DF00D87DDC /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D61E292E08DF00D87DDC /* MenuRow.swift */; };
 		DAF64146292B662A00D51293 /* AnimatedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF64145292B662A00D51293 /* AnimatedApp.swift */; };
 		DAF64148292B662A00D51293 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF64147292B662A00D51293 /* ContentView.swift */; };
 		DAF6414A292B662B00D51293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF64149292B662B00D51293 /* Assets.xcassets */; };
 		DAF6414D292B662B00D51293 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF6414C292B662B00D51293 /* Preview Assets.xcassets */; };
+		DAF6415B292B668C00D51293 /* house.riv in Resources */ = {isa = PBXBuildFile; fileRef = DAF64154292B668C00D51293 /* house.riv */; };
+		DAF6415C292B668C00D51293 /* confetti.riv in Resources */ = {isa = PBXBuildFile; fileRef = DAF64155292B668C00D51293 /* confetti.riv */; };
+		DAF6415D292B668C00D51293 /* check.riv in Resources */ = {isa = PBXBuildFile; fileRef = DAF64156292B668C00D51293 /* check.riv */; };
+		DAF6415E292B668C00D51293 /* menu_button.riv in Resources */ = {isa = PBXBuildFile; fileRef = DAF64157292B668C00D51293 /* menu_button.riv */; };
+		DAF6415F292B668C00D51293 /* shapes.riv in Resources */ = {isa = PBXBuildFile; fileRef = DAF64158292B668C00D51293 /* shapes.riv */; };
+		DAF64160292B668C00D51293 /* button.riv in Resources */ = {isa = PBXBuildFile; fileRef = DAF64159292B668C00D51293 /* button.riv */; };
+		DAF64161292B668C00D51293 /* icons.riv in Resources */ = {isa = PBXBuildFile; fileRef = DAF6415A292B668C00D51293 /* icons.riv */; };
+		DAF64164292B6B4700D51293 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = DAF64163292B6B4700D51293 /* RiveRuntime */; };
+		DAF64166292B6B5600D51293 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF64165292B6B5600D51293 /* OnBoardingView.swift */; };
+		DAF6416B292B751800D51293 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAF64168292B751800D51293 /* Inter-Regular.ttf */; };
+		DAF6416C292B751800D51293 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAF64169292B751800D51293 /* Poppins-Bold.ttf */; };
+		DAF6416D292B751800D51293 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAF6416A292B751800D51293 /* Inter-SemiBold.ttf */; };
+		DAF64170292B763800D51293 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF6416F292B763800D51293 /* CustomFont.swift */; };
+		DAF64172292CAEE200D51293 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF64171292CAEE200D51293 /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DAD7D609292CB79C00D87DDC /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DAD7D60B292CC01E00D87DDC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DAD7D60F292CCD1600D87DDC /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		DAD7D611292DFADB00D87DDC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DAD7D613292DFAE200D87DDC /* VCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
+		DAD7D615292DFAE700D87DDC /* HCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
+		DAD7D618292DFB0B00D87DDC /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
+		DAD7D619292DFB0B00D87DDC /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		DAD7D61C292E018300D87DDC /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		DAD7D61E292E08DF00D87DDC /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 		DAF64142292B662A00D51293 /* Animated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF64145292B662A00D51293 /* AnimatedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedApp.swift; sourceTree = "<group>"; };
 		DAF64147292B662A00D51293 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAF64149292B662B00D51293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAF6414C292B662B00D51293 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAF64154292B668C00D51293 /* house.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = house.riv; sourceTree = "<group>"; };
+		DAF64155292B668C00D51293 /* confetti.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = confetti.riv; sourceTree = "<group>"; };
+		DAF64156292B668C00D51293 /* check.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = check.riv; sourceTree = "<group>"; };
+		DAF64157292B668C00D51293 /* menu_button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = menu_button.riv; sourceTree = "<group>"; };
+		DAF64158292B668C00D51293 /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
+		DAF64159292B668C00D51293 /* button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.riv; sourceTree = "<group>"; };
+		DAF6415A292B668C00D51293 /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
+		DAF64165292B6B5600D51293 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		DAF64168292B751800D51293 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		DAF64169292B751800D51293 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		DAF6416A292B751800D51293 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		DAF6416E292B754400D51293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DAF6416F292B763800D51293 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		DAF64171292CAEE200D51293 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +74,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF64164292B6B4700D51293 /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DAD7D60D292CC4A400D87DDC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7D611292DFADB00D87DDC /* HomeView.swift */,
+				DAF64165292B6B5600D51293 /* OnBoardingView.swift */,
+				DAF64171292CAEE200D51293 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DAD7D60E292CC4BD00D87DDC /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7D60B292CC01E00D87DDC /* Extensions.swift */,
+				DAD7D609292CB79C00D87DDC /* CustomTextField.swift */,
+				DAF6416F292B763800D51293 /* CustomFont.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		DAD7D617292DFB0B00D87DDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7D618292DFB0B00D87DDC /* CourseSection.swift */,
+				DAD7D619292DFB0B00D87DDC /* Course.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAD7D620292F3D9100D87DDC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7D61E292E08DF00D87DDC /* MenuRow.swift */,
+				DAD7D613292DFAE200D87DDC /* VCard.swift */,
+				DAD7D615292DFAE700D87DDC /* HCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DAD7D621292F3DB200D87DDC /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				DAF64147292B662A00D51293 /* ContentView.swift */,
+				DAD7D61C292E018300D87DDC /* SideMenu.swift */,
+				DAD7D60F292CCD1600D87DDC /* TabBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		DAF64139292B662A00D51293 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +149,16 @@
 		DAF64144292B662A00D51293 /* Animated */ = {
 			isa = PBXGroup;
 			children = (
+				DAF6416E292B754400D51293 /* Info.plist */,
 				DAF64145292B662A00D51293 /* AnimatedApp.swift */,
-				DAF64147292B662A00D51293 /* ContentView.swift */,
+				DAD7D621292F3DB200D87DDC /* Navigation */,
+				DAD7D60D292CC4A400D87DDC /* Views */,
+				DAD7D620292F3D9100D87DDC /* Components */,
+				DAD7D60E292CC4BD00D87DDC /* Styles */,
+				DAD7D617292DFB0B00D87DDC /* Model */,
 				DAF64149292B662B00D51293 /* Assets.xcassets */,
+				DAF64167292B751800D51293 /* Fonts */,
+				DAF64153292B668C00D51293 /* RiveAssets */,
 				DAF6414B292B662B00D51293 /* Preview Content */,
 			);
 			path = Animated;
@@ -65,6 +170,30 @@
 				DAF6414C292B662B00D51293 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAF64153292B668C00D51293 /* RiveAssets */ = {
+			isa = PBXGroup;
+			children = (
+				DAF64154292B668C00D51293 /* house.riv */,
+				DAF64155292B668C00D51293 /* confetti.riv */,
+				DAF64156292B668C00D51293 /* check.riv */,
+				DAF64157292B668C00D51293 /* menu_button.riv */,
+				DAF64158292B668C00D51293 /* shapes.riv */,
+				DAF64159292B668C00D51293 /* button.riv */,
+				DAF6415A292B668C00D51293 /* icons.riv */,
+			);
+			path = RiveAssets;
+			sourceTree = "<group>";
+		};
+		DAF64167292B751800D51293 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DAF64168292B751800D51293 /* Inter-Regular.ttf */,
+				DAF64169292B751800D51293 /* Poppins-Bold.ttf */,
+				DAF6416A292B751800D51293 /* Inter-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +212,9 @@
 			dependencies = (
 			);
 			name = Animated;
+			packageProductDependencies = (
+				DAF64163292B6B4700D51293 /* RiveRuntime */,
+			);
 			productName = Animated;
 			productReference = DAF64142292B662A00D51293 /* Animated.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +243,9 @@
 				Base,
 			);
 			mainGroup = DAF64139292B662A00D51293;
+			packageReferences = (
+				DAF64162292B6B4700D51293 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = DAF64143292B662A00D51293 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +260,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF6416D292B751800D51293 /* Inter-SemiBold.ttf in Resources */,
+				DAF6415F292B668C00D51293 /* shapes.riv in Resources */,
+				DAF6415D292B668C00D51293 /* check.riv in Resources */,
 				DAF6414D292B662B00D51293 /* Preview Assets.xcassets in Resources */,
+				DAF6415E292B668C00D51293 /* menu_button.riv in Resources */,
+				DAF6415B292B668C00D51293 /* house.riv in Resources */,
+				DAF64160292B668C00D51293 /* button.riv in Resources */,
+				DAF6416B292B751800D51293 /* Inter-Regular.ttf in Resources */,
+				DAF6416C292B751800D51293 /* Poppins-Bold.ttf in Resources */,
 				DAF6414A292B662B00D51293 /* Assets.xcassets in Resources */,
+				DAF6415C292B668C00D51293 /* confetti.riv in Resources */,
+				DAF64161292B668C00D51293 /* icons.riv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +282,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD7D61B292DFB0B00D87DDC /* Course.swift in Sources */,
+				DAD7D612292DFADB00D87DDC /* HomeView.swift in Sources */,
 				DAF64148292B662A00D51293 /* ContentView.swift in Sources */,
+				DAD7D61D292E018300D87DDC /* SideMenu.swift in Sources */,
+				DAF64170292B763800D51293 /* CustomFont.swift in Sources */,
+				DAD7D616292DFAE700D87DDC /* HCard.swift in Sources */,
+				DAD7D61A292DFB0B00D87DDC /* CourseSection.swift in Sources */,
+				DAD7D60A292CB79C00D87DDC /* CustomTextField.swift in Sources */,
+				DAD7D614292DFAE200D87DDC /* VCard.swift in Sources */,
+				DAD7D610292CCD1600D87DDC /* TabBar.swift in Sources */,
+				DAF64166292B6B5600D51293 /* OnBoardingView.swift in Sources */,
 				DAF64146292B662A00D51293 /* AnimatedApp.swift in Sources */,
+				DAF64172292CAEE200D51293 /* SignInView.swift in Sources */,
+				DAD7D60C292CC01E00D87DDC /* Extensions.swift in Sources */,
+				DAD7D61F292E08DF00D87DDC /* MenuRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +428,7 @@
 				DEVELOPMENT_TEAM = UM77RT2RUA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Animated/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +458,7 @@
 				DEVELOPMENT_TEAM = UM77RT2RUA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Animated/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +499,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAF64162292B6B4700D51293 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAF64163292B6B4700D51293 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAF64162292B6B4700D51293 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DAF6413A292B662A00D51293 /* Project object */;
 }
